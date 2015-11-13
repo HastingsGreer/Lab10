@@ -57,11 +57,14 @@ module screen_top
     wire dmem_wr, smem_wr, dmem_addr, smem_addr; 
     wire reset = 1'b0;
     
+    assign dmem_wr = (mem_addr[14:13] == 2'b01) & mem_wr;
+    assign smem_wr = mem_addr[14:13] == 2'b10 & mem_wr;
+    
     mips mips(clk25, reset, pc, instr, mem_wr, mem_addr, mem_writedata, mem_readdata);
     imem #(32, 32, 32, imem_init) imem(pc[31:0], instr);
-    dmem #(32, 32, 32, dmem_init) dmem(clk25, mem_wr, mem_addr, mem_writedata, mem_readdata);
+    dmem #(32, 32, 32, dmem_init) dmem(clk25, mem_wr, mem_addr[12:0], mem_writedata, mem_readdata);
   
-    smem screenmem (clk, smem_read_address, character, smem_addr, mem_writedata, smem_wr);
+    smem screenmem (clk, smem_read_address, character, mem_addr[12:0], mem_writedata, smem_wr);
     vgadisplaydriver vga (clk, character, smem_read_address, red, green, blue, hsync, vsync);
     
 endmodule

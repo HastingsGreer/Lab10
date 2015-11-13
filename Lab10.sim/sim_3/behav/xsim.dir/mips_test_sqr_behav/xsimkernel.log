@@ -2,3 +2,6 @@ Running: xsim.dir/mips_test_sqr_behav/xsimk -simmode gui -wdb mips_test_sqr_beha
 Design successfully loaded
 Design Loading Memory Usage: 109176 KB (Peak: 109380 KB)
 Design Loading CPU Usage: 50 ms
+Simulation completed
+Simulation Memory Usage: 187012 KB (Peak: 248448 KB)
+Simulation CPU Usage: 90 ms

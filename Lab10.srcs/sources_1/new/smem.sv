@@ -18,7 +18,7 @@ module smem #(
    input wire [Abits - 1 : 0] addr,     // Address for specifying memory location
    output logic [Dbits-1 : 0] dout,
    input wire [Abits - 1 : 0] write_addr,
-   input wire [Abits - 1 : 0] write_char,
+   input wire [Dbits - 1 : 0] write_char,
    input wire enable          // Data read from memory (asynchronously, i.e., continuously)
    );
 
@@ -29,5 +29,5 @@ module smem #(
    assign dout = mem[addr[$clog2(Nloc):0]];                  // Memory read: read continuously, no clock involved
    always @(posedge clk)
        if(enable)
-           mem[addr[$clog2(Nloc):0]] <= write_char;
+           mem[write_addr[$clog2(Nloc):0]] <= write_char;
 endmodule
