@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:07:21 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Tue Sep  1 18:50:54 2015
+# Process ID: 4775
+# Log file: /home/hastings/comp541/project2/project2.sim/sim_2/behav/webtalk.log
+# Journal file: /home/hastings/comp541/project2/project2.sim/sim_2/behav/webtalk.jou
+#-----------------------------------------------------------
+source /home/hastings/comp541/project2/project2.sim/sim_2/behav/xsim.dir/adder4bit_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 4175616311 -regid "211077179_0_0_865" -xml /home/hastings/comp541/project2/project2.sim/sim_2/behav/xsim.dir/adder4bit_beha..."
+    (file "/home/hastings/comp541/project2/project2.sim/sim_2/behav/xsim.dir/adder4bit_behav/webtalk/xsim_webtalk.tcl" line 32)
+INFO: [Common 17-206] Exiting Webtalk at Tue Sep  1 18:50:58 2015...
