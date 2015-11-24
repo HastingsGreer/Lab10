@@ -4,7 +4,6 @@
 
 set_param xicom.use_bs_reader 1
 debug::add_scope template.lib 1
-set_msg_config -id {Common-41} -limit 4294967295
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
 set_msg_config -id {Synth 8-256} -limit 10000
@@ -25,21 +24,36 @@ read_mem {
   /home/hastings/Lab10/Lab10.srcs/sources_1/imports/lab11/screentest_bmem.mif
   /home/hastings/Lab10/Lab10.srcs/sources_1/imports/lab11/screentest_nopause_imem.mif
   /home/hastings/Lab10/Lab10.srcs/sources_1/imports/lab11/screentest_smem.mif
+  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/asm/screentest_imem_2.mif
+  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/asm/bounce.mif
+  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/asm/bounce2.mif
+  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/asm/bounce3.mif
+  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/asm/bounce4.mif
+  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/asm/bounce5.mif
+  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/Downloads/deadbeef.mif
+  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/c541/tmem_init.mif
+  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/asm/bounce6.mif
+  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/asm/keybdtest.mif
+  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/asm/bounce7.mif
 }
 read_verilog -library xil_defaultlib -sv {
   /home/hastings/Lab10/Lab10.srcs/sources_1/new/register_file.sv
   /home/hastings/Lab10/Lab10.srcs/sources_1/imports/new/xycounter.v
   /home/hastings/Lab10/Lab10.srcs/sources_1/new/datapath.sv
   /home/hastings/Lab10/Lab10.srcs/sources_1/imports/c541/controller.sv
+  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/new/hexto7seg.v
+  /home/hastings/Lab10/Lab10.srcs/sources_1/new/bmem.sv
   /home/hastings/Lab10/Lab10.srcs/sources_1/imports/new/display640x480.sv
   /home/hastings/Lab10/Lab10.srcs/sources_1/imports/new/vgatimer.sv
-  /home/hastings/Lab10/Lab10.srcs/sources_1/new/bmem.sv
+  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/lab11/keyboard.sv
   /home/hastings/Lab10/Lab10.srcs/sources_1/imports/c541/mips.sv
-  /home/hastings/Lab10/Lab10.srcs/sources_1/new/smem.sv
   /home/hastings/Lab10/Lab10.srcs/sources_1/new/imem.sv
   /home/hastings/Lab10/Lab10.srcs/sources_1/new/dmem.sv
-  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/new/vgadisplaydriver.sv
   /home/hastings/Lab10/Lab10.srcs/sources_1/imports/lab11/clockdiv.sv
+  /home/hastings/Lab10/Lab10.srcs/sources_1/new/smem.sv
+  /home/hastings/Lab10/Lab10.srcs/sources_1/imports/new/vgadisplaydriver.sv
+  /home/hastings/Lab10/Lab10.srcs/sources_1/new/tmem.sv
+  /home/hastings/Lab10/Lab10.srcs/sources_1/new/hexDisplay.sv
   /home/hastings/Lab10/Lab10.srcs/sources_1/new/screen_top.sv
 }
 read_verilog -library xil_defaultlib {

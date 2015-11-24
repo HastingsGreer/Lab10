@@ -9,4 +9,4 @@ then
 exit $RETVAL
 fi
 }
-ExecStep $xv_path/bin/xsim mips_test_sqr_behav -key {Behavioral:sim_3:Functional:mips_test_sqr} -tclbatch mips_test_sqr.tcl -view /home/hastings/Lab9/Lab9_test_behav.wcfg -log simulate.log
+ExecStep $xv_path/bin/xsim topsim_behav -key {Behavioral:sim_3:Functional:topsim} -tclbatch topsim.tcl -view /home/hastings/Lab9/Lab9_test_behav.wcfg -log simulate.log

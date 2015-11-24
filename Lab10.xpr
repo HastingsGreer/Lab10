@@ -115,6 +115,22 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/hexto7seg.v">
+        <FileInfo SFType="SVerilog">
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab7/Lab7.srcs/sources_1/new/hexto7seg.v"/>
+          <Attr Name="ImportTime" Val="1444177862"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/bmem.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/imports/new/display640x480.sv">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../Lab7/Lab7.srcs/sources_1/new/display640x480.sv"/>
@@ -133,8 +149,10 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/bmem.sv">
+      <File Path="$PSRCDIR/sources_1/imports/lab11/keyboard.sv">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/lab11/keyboard.sv"/>
+          <Attr Name="ImportTime" Val="1448311277"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -144,13 +162,6 @@
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/mips.sv"/>
           <Attr Name="ImportTime" Val="1446428172"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/smem.sv">
-        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -170,15 +181,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/new/vgadisplaydriver.sv">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Lab7/Lab7.srcs/sources_1/new/vgadisplaydriver.sv"/>
-          <Attr Name="ImportTime" Val="1444836544"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/imports/lab11/clockdiv.sv">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/lab11/clockdiv.sv"/>
@@ -188,8 +190,54 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/new/smem.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/vgadisplaydriver.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab7/Lab7.srcs/sources_1/new/vgadisplaydriver.sv"/>
+          <Attr Name="ImportTime" Val="1444836544"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/tmem.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/hexDisplay.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/new/screen_top.sv">
         <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/mandel_unit.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/mandelbrot_array.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -205,11 +253,29 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/sierpscroller.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab7/Lab7.srcs/sources_1/new/sierpscroller.sv"/>
+          <Attr Name="ImportTime" Val="1444710495"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/imports/new/ram_module.sv">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../project_8/project_8.srcs/sources_1/new/ram_module.sv"/>
           <Attr Name="ImportTime" Val="1445270475"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/mandel_top.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -251,31 +317,11 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/new/hexto7seg.v">
-        <FileInfo SFType="SVerilog">
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Lab7/Lab7.srcs/sources_1/new/hexto7seg.v"/>
-          <Attr Name="ImportTime" Val="1444177862"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/imports/new/display10x4.sv">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Lab7/Lab7.srcs/sources_1/new/display10x4.sv"/>
           <Attr Name="ImportTime" Val="1444359440"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/new/sierpscroller.sv">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Lab7/Lab7.srcs/sources_1/new/sierpscroller.sv"/>
-          <Attr Name="ImportTime" Val="1444710495"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -309,6 +355,94 @@
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/lab11/screentest_smem.mif"/>
           <Attr Name="ImportTime" Val="1447428942"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/asm/screentest_imem_2.mif">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/asm/screentest_imem_2.mif"/>
+          <Attr Name="ImportTime" Val="1448037514"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/asm/bounce.mif">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/asm/bounce.mif"/>
+          <Attr Name="ImportTime" Val="1448041173"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/asm/bounce2.mif">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/asm/bounce2.mif"/>
+          <Attr Name="ImportTime" Val="1448042019"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/asm/bounce3.mif">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/asm/bounce3.mif"/>
+          <Attr Name="ImportTime" Val="1448042465"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/asm/bounce4.mif">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/asm/bounce4.mif"/>
+          <Attr Name="ImportTime" Val="1448043342"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/asm/bounce5.mif">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/asm/bounce5.mif"/>
+          <Attr Name="ImportTime" Val="1448043759"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Downloads/deadbeef.mif">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/deadbeef.mif"/>
+          <Attr Name="ImportTime" Val="1448159309"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/c541/tmem_init.mif">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/tmem_init.mif"/>
+          <Attr Name="ImportTime" Val="1448295078"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/asm/bounce6.mif">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/asm/bounce6.mif"/>
+          <Attr Name="ImportTime" Val="1448297394"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/asm/keybdtest.mif">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/asm/keybdtest.mif"/>
+          <Attr Name="ImportTime" Val="1448313994"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/asm/bounce7.mif">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/asm/bounce7.mif"/>
+          <Attr Name="ImportTime" Val="1448323782"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -392,8 +526,16 @@
     </FileSet>
     <FileSet Name="sim_3" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_3">
       <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_3/new/topsim.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sim_3/imports/c541/Lab10_test_sqr.sv">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/c541/Lab10_test_sqr.sv"/>
           <Attr Name="ImportTime" Val="1446428197"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -408,7 +550,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="mips_test_sqr"/>
+        <Option Name="TopModule" Val="topsim"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="SrcSet" Val="sources_1"/>
         <Option Name="XSimWcfgFile" Val="$PPRDIR/../Lab9/Lab9_test_behav.wcfg"/>
